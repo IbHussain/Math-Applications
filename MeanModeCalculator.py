@@ -7,8 +7,6 @@ for i in range (0, 10):
     x = random.randrange(1, 11)
     list.append(x)
 
-blist = [1, 2, 2, 3, 3, 5, 5, 5]
-
 def average(list):
     total = 0
     listLen = len(list)
