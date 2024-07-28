@@ -2,8 +2,9 @@ import random
 
 list = []
 
-for i in range (0, 1000):
-    x = random.randrange(1,1000)
+#testing stuff
+for i in range (0, 10):
+    x = random.randrange(1, 11)
     list.append(x)
 
 blist = [1, 2, 2, 3, 3, 5, 5, 5]
@@ -45,5 +46,7 @@ print("The average was",avg)
 
 if len(modeList) > 1:
     print("The mode was tied between:",modeList,"with each appearing",modeAmount,"times") 
+elif len(modeList) == 0:
+    print("No mode, every element only appeared once")
 else:
     print("The mode was",modeList[0],"which appeared",modeAmount,"times")
